@@ -1,4 +1,4 @@
-const PINATA_JWT = process.env.PINATA_JWT || "";
+const PINATA_JWT = "";
 const FOLDER_NAME = "";
 import { readdir } from "node:fs/promises";
 import { PinataSDK } from "pinata-web3";
